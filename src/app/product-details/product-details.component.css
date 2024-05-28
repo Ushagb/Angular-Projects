@@ -1,0 +1,35 @@
+.Example-card {
+    max-width: 500px;
+    margin-bottom: 8px;
+  }
+  .container{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .header-wrapper{
+    display: flex;
+    gap: 0px;
+    color: rgb(252, 252, 6);
+  }
+
+  .wrapper{
+    text-align: center;
+    border-bottom: 1px solid gray;
+  }
+  .middle-wrapper{
+    padding: 10px 0px 10px 10px;
+    border-bottom: 1px solid gray;
+  }
+  .middle-wrapper2{
+    padding: 10px 0px 10px 10px;
+    border-bottom: 1px solid gray;
+  }
+  .middle-wrapper3{
+    padding: 10px 0px 10px 10px;
+    border-bottom: 1px solid gray;
+  }
+
+
+  
+  

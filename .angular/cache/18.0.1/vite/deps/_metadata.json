@@ -1,0 +1,73 @@
+{
+  "hash": "0902cd88",
+  "configHash": "5e5b3f69",
+  "lockfileHash": "b6b0fc8a",
+  "browserHash": "b73c5259",
+  "optimized": {
+    "@angular/common": {
+      "src": "../../../../../node_modules/@angular/common/fesm2022/common.mjs",
+      "file": "@angular_common.js",
+      "fileHash": "e9e5d34a",
+      "needsInterop": false
+    },
+    "@angular/core": {
+      "src": "../../../../../node_modules/@angular/core/fesm2022/core.mjs",
+      "file": "@angular_core.js",
+      "fileHash": "4b767a2a",
+      "needsInterop": false
+    },
+    "@angular/material/button": {
+      "src": "../../../../../node_modules/@angular/material/fesm2022/button.mjs",
+      "file": "@angular_material_button.js",
+      "fileHash": "8c94a2ce",
+      "needsInterop": false
+    },
+    "@angular/material/card": {
+      "src": "../../../../../node_modules/@angular/material/fesm2022/card.mjs",
+      "file": "@angular_material_card.js",
+      "fileHash": "d8704a5d",
+      "needsInterop": false
+    },
+    "@angular/material/icon": {
+      "src": "../../../../../node_modules/@angular/material/fesm2022/icon.mjs",
+      "file": "@angular_material_icon.js",
+      "fileHash": "f2016fc7",
+      "needsInterop": false
+    },
+    "@angular/platform-browser": {
+      "src": "../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
+      "file": "@angular_platform-browser.js",
+      "fileHash": "7a57b159",
+      "needsInterop": false
+    },
+    "@angular/platform-browser/animations/async": {
+      "src": "../../../../../node_modules/@angular/platform-browser/fesm2022/animations/async.mjs",
+      "file": "@angular_platform-browser_animations_async.js",
+      "fileHash": "097a7c6d",
+      "needsInterop": false
+    },
+    "@angular/router": {
+      "src": "../../../../../node_modules/@angular/router/fesm2022/router.mjs",
+      "file": "@angular_router.js",
+      "fileHash": "a94121d0",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "browser-WXHKPVNV": {
+      "file": "browser-WXHKPVNV.js"
+    },
+    "chunk-POZIBTMJ": {
+      "file": "chunk-POZIBTMJ.js"
+    },
+    "chunk-WFERWRNZ": {
+      "file": "chunk-WFERWRNZ.js"
+    },
+    "chunk-O6XRSHRK": {
+      "file": "chunk-O6XRSHRK.js"
+    },
+    "chunk-ZC6BBDNY": {
+      "file": "chunk-ZC6BBDNY.js"
+    }
+  }
+}
