@@ -1,0 +1,19 @@
+<p>test works!</p>
+<!-- One way data binding - We cannot change --> 
+<h1>{{fullName}}</h1>
+<!-- Two way Databinding - We can able to change -->
+<input type="text" [(ngModel)]="fullName">
+<h2 class="text-success">Usha G B</h2>
+
+<!-- class binding -->
+<h2 [class]="successClass">Usha G B</h2>
+<h2 [class.text-danger]="hasError">Usha G B</h2>
+
+<!-- To bind multiple classes -->
+<!-- <h3 [ngClass]="messageClasses">Hello</h3> -->
+
+<!-- Style binding -->
+<h3 [style.color]="hasError? 'red' : 'green'">USha</h3>
+<h3 [style.color]="heightletColor">USHA</h3>
+<!-- Multiple Style -->
+<h3 [ngStyle]="titleColor">Hello</h3>
