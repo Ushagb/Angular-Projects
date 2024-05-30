@@ -1,0 +1,33 @@
+<p>structural-directive works!</p>
+<!-- ngIf case -->
+<input type="checkbox" [(ngModel)] = "displayName">
+<h3 *ngIf="displayName; else elseBlock">Hey Usha</h3>
+
+<div *ngIf = "displayName; then thenBlock; else elseBlock"></div>
+<!-- Else block -->
+<ng-template #thenBlock>
+    <h3>Print This</h3>
+</ng-template>
+
+<ng-template #elseBlock>
+    <h3>Name is Hidden</h3>
+</ng-template>
+
+<!-- ngSwitch case -->
+<div [ngSwitch]="color">
+    <div *ngSwitchCase="'red'">Pick Red Color</div>
+    <div *ngSwitchCase="'blue'">Pick blue Color</div>
+    <div *ngSwitchDefault>Pick Again</div>
+</div>
+
+<!-- ngFor Case -->
+ <div *ngFor="let listColor of listColors; index as i"> <!-- to show index value -->
+    <h4>{{i}} {{listColor}}</h4>
+</div>
+<div *ngFor="let listColor of listColors; first as i"> <!-- to show first value is true -->
+    <h4>{{i}} {{listColor}}</h4>
+</div>
+<div *ngFor="let listColor of listColors; odd as o"> <!-- to show odd elements true -->
+    <h4>{{o}} {{listColor}}</h4>
+</div>
+
