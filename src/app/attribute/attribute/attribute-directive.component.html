@@ -1,10 +1,10 @@
 <!-- ngClass  -->
-<p [ngClass]="['primary', 'big']">Sample Text</p>
+<div [ngClass]="['primary', 'big']">Sample Text</div>
 
 <!-- We can give condition in { } parenthesis -->
 
 <input type="checkbox" [(ngModel)]="applyColor">
-<p [ngClass]="{'primary':applyColor}">Hello World</p>
+<div [ngClass]="{'primary':applyColor}">Hello World</div>
 
 <!-- ngStyle -->
 <p [ngStyle]="{'color':'green', 'font-size':'40px' }">Hello This is Usha</p>
