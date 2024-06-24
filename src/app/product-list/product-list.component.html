@@ -1,9 +1,4 @@
-<app-product [p] = "products"></app-product>
-    
-
-
-
-<app-product [d] = "data1"></app-product>
+<app-product *ngFor="let product of products" [product]="product">
 
 
 
