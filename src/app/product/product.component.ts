@@ -17,7 +17,7 @@ export class ProductComponent {
 [x: string]: any;
 
   
-  @Input() p:any
+  @Input() product:any
 
 
 
