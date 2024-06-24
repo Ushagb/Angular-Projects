@@ -16,7 +16,7 @@ import { RouterLink } from '@angular/router';
 export class ProductComponent {
 [x: string]: any;
 
-  @Input() d:any
+  
   @Input() p:any
 
 
