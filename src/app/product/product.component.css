@@ -1,0 +1,41 @@
+.container{
+    display: flex;
+    max-width: 800px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 20px;
+}
+
+.productImg{
+    width: 200px;
+    height: 200px;
+   
+    background-color: gray;
+   
+
+}
+.drapper{
+    color: rgb(29, 174, 231)
+}
+.drapper1{
+    color: rgb(29, 174, 231);
+    font-weight: bold;
+}
+
+.rate{
+    color: yellow;
+    
+}
+.wrapper{
+    font-weight: bold;
+}
+
+.wrapper1{
+    border-radius: 20px;
+    padding: 14px 40px;
+    background-color: yellow;
+    color: black;
+    border: yellow;
+    width: 100%;
+    font-size: bold;
+}

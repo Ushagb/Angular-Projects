@@ -1,0 +1,44 @@
+@Input() product:any
+<div class="container" *ngFor="let product of products">
+<div class="container">
+    <img [src]="product.image" class="productImg" alt="Image">
+</div>
+<div class="container1">
+    
+    <h6>{{product.description}}</h6>
+    <p>
+        Options: <span class="drapper">2 sizes</span> 
+    </p>
+    <h6>4.8
+    <mat-icon class="rate" aria-hidden="false" aria-label="Example star icon" fontIcon="star"></mat-icon>
+    <mat-icon class="rate" aria-hidden="false" aria-label="Example star icon" fontIcon="star"></mat-icon>
+    <mat-icon class="rate" aria-hidden="false" aria-label="Example star icon" fontIcon="star"></mat-icon>
+    <mat-icon class="rate" aria-hidden="false" aria-label="Example star icon" fontIcon="star"></mat-icon> 
+    <mat-icon class="rate" aria-hidden="false" aria-label="Example star icon" fontIcon="star"></mat-icon> (87)
+    </h6>
+    <p Style="color:gray">500+ bought in past month</p>
+    <p>${{product.price}}</p>
+    <p style="color: grey;">Amazon Music offer with this purchase</p>
+    <p class="drapper1">prime</p>
+    <p>
+        FREE delivery <span class="wrapper">Mon, Jun 28</span>
+    </p>
+    <p>Or fatest delivery <span class="wrapper">Tomorrow, Jun2 23</span></p>
+    <button class="wrapper1">Add to Cart
+    <a [routerLink]="['/product',p.id]" routerLinkActive="active"></a>
+    </button>
+
+
+        
+
+
+    
+</div>
+
+
+
+
+
+
+
+
